@@ -7,7 +7,7 @@ const SignUpPage = () => {
   return (
     <>
       <Head>
-        <title>Sign up - Pharma Allocation</title>
+        <title>Sign up - MedBridge</title>
       </Head>
 
       <div className={styles.container}>

@@ -102,8 +102,7 @@ const Layout = ({ children = null }) => {
             </Transition>
           </Menu>
         </div>
-      </header>
-
+      </header>                
       <main className={styles.main}>
         <div className={styles['main-container']}>{children}</div>
       </main>

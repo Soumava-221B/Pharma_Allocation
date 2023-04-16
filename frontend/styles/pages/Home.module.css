@@ -22,4 +22,15 @@
   padding-right: 0.5rem;
   padding-top: 1px;
   padding-bottom: 1px;
+
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
 }
