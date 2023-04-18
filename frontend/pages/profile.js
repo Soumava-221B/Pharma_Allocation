@@ -41,7 +41,7 @@ const Profile = () => {
           displayName: `${firstName} ${lastName}`.trim(),
           metadata: {
             firstName,
-            lastName
+            lastName,
           }
         }
       })
@@ -88,6 +88,22 @@ const Profile = () => {
                   label="Email address"
                   value={user?.email}
                   readOnly
+                />
+              </div>
+              <div className={styles['input-group']}>
+                <Input
+                  type="tel"
+                  label="Mobile no."
+                  value={456}
+                  required
+                />
+              </div>
+              <div className={styles['input-group']}>
+                <Input
+                  type="text"
+                  label="Address"
+                  value={2}
+                  required
                 />
               </div>
             </div>

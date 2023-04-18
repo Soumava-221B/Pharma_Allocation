@@ -24,7 +24,6 @@ const Home = () => {
         </p>
 
         <p className={styles['info-text']}>
-          Edit the <code>pages/index.js</code> file to populate this page.
         </p>
       </div>
 

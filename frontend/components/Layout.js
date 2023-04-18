@@ -46,7 +46,7 @@ const Layout = ({ children = null }) => {
               <a>
                 <Image
                   src="/logo.svg"
-                  alt="logo"
+                  alt="MedBridge"
                   layout="fill"
                   objectFit="contain"
                 />
