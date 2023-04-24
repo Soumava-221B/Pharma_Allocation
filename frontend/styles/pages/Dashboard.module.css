@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+}
+
+.sidebar {
+  width: 200px;
+  padding: 16px;
+  background-color: #f8f8f8;
+}
+
+.button {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 8px;
+  text-align: left;
+  background-color: #ddd;
+  border: none;
+  cursor: pointer;
+}
+
+.input {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 8px;
+  border: none;
+}
+
+.content {
+  flex-grow: 1;
+  padding: 16px;
+}
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  background-color: #f8f8f8;
+  margin-bottom: 16px;
+}
