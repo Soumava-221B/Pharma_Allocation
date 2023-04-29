@@ -3,7 +3,9 @@ import withAuth from '../withAuth';
 import { useUserContext } from '../UserProvider';
 import Head from 'next/head';
 import Layout from '../components/Layout';
-
+import Warning from '../components/alerts/warnig';
+import Page from '../components/page';
+import ProductSection from '../components/productSection';
 const Home = () => {
   const { user } = useUserContext();
 
@@ -26,6 +28,10 @@ const Home = () => {
         <p className={styles['info-text']}>
         </p>
       </div>
+      <Page>
+
+      <ProductSection />
+      </Page>
 
       <div style={{ position: "absolute", bottom: 0, width:"100%" }} className="bg-gray-100">
         <div className="bg-gray-100 container mx-auto px-6 pt-10 pb-6">
